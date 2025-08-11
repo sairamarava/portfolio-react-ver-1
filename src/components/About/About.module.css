@@ -1,0 +1,56 @@
+/ react-portfolio-app / react-portfolio-app / src / components / About / About.module.css
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.about-image {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.underline-animate {
+  width: 50px;
+  height: 4px;
+  background-color: #4a90e2;
+  margin: 0.5rem auto;
+  animation: slide 0.5s ease-in-out forwards;
+}
+
+.about-text {
+  text-align: justify;
+  margin: 1rem 0;
+}
+
+.btn {
+  background-color: #4a90e2;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #357ab8;
+}
+
+@keyframes slide {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50px;
+  }
+}
