@@ -1,9 +1,0 @@
-:root {
-  --primary-color: #1d4ed8; /* Blue */
-  --secondary-color: #fbbf24; /* Yellow */
-  --accent-color: #ef4444; /* Red */
-  --background-color: #f9fafb; /* Light Gray */
-  --text-color: #111827; /* Dark Gray */
-  --border-radius: 0.5rem; /* Border radius for buttons and cards */
-  --transition-speed: 0.3s; /* Transition speed for hover effects */
-}
